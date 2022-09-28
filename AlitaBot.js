@@ -30,7 +30,7 @@ const startSock = async() => {
 						commandHandler.commandHandler(resolve, m, sock)
 					}
 				}).then((resolve)=>{
-					if (resolve.mimetype == 'ex-text' && resolve.quotedsender == '254734962640@s.whatsapp.net' )
+					if (resolve.mimetype == 'ex-text' && resolve.quotedsender == '254785613597@s.whatsapp.net' )
 					{
 						handleAi(m, sock, resolve)
 					}
